@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hey", "Goeiemorgen", "Hallo", "Goeiedag", "Hoi"],
+            "responses": ["hallo!", "Hallo, kan ik je helpen?", "Hoi, wat kan ik doen voor jou?"],
+            "context_set": ""
+        },
+        {
+            "tag": "help",
+            "patterns": ["Waar kan je mij mee helpen", "Wat is jouw doel", "Wat kan je doen voor mij", "Wat doe je"],
+            "responses": [
+                "Ik kan de studiegids voor jou raadplegen en helpen met je studietraject samenstellen.",
+                "De ultieme reden van mijn bestaan is om studenten te helpen bij het samenstellen van hun studietraject. Zeg mij gerust welke vakken je wil opnemen en dan help ik je verder."
+            ]
+        },
+        {
+            "tag": "content",
+            "patterns": ["Waarover gaat", "Waarover gaat het vak", "Wat is de inhoud van", "Kan je mij iets vertellen over het vak", "kan je mij wat meer vertellen over"]
+        },
+        {
+            "tag": "lecturer",
+            "patterns": ["Welke prof geeft", "Wie is de prof van", "Wie geeft", "door wie wordt gegeven"]
+        },
+        {
+            "tag": "take",
+            "patterns": ["Ik wil opnemen", "neem op", "neem dit vak op", "dit vak wil ik opnemen"]
+        },
+        {
+            "tag": "drop",
+            "patterns": ["wil ik toch niet opnemen", "laat vallen", "laat dit toch maar vallen"]
+        },
+        {
+            "tag": "total_credits",
+            "patterns": ["hoeveel studiepunten heb ik in totaal?", "wat is nu mijn totaal aantal studiepunten?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "Tot de volgende keer", "Fijne dag nog","bye"],
+            "responses": ["Fijne dag nog!", "Tot de volgende keer!", "Cya!"],
+            "context_set": ""
+        }
+    ]
+}

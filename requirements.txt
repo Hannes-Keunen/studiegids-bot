@@ -1,0 +1,5 @@
+keras
+nltk
+numpy
+pickles
+tensorflow
